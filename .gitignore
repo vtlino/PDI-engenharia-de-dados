@@ -1,0 +1,23 @@
+*postgres_data*
+*airflow/logs/*dag*
+*airflow/logs/*scheduler*
+
+*.pyc
+
+# Packages
+/dist/*
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache
+
+.DS_Store
+.idea/*
+.python-version
+.vscode/*
+
+/docs/site/*
+.mypy_cache
+
+.venv
+*__pycache__*
