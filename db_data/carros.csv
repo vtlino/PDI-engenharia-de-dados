@@ -1,0 +1,12 @@
+id,marca,modelo,ano,preco_de_lista
+1,Toyota,Corolla,2021,20000.00
+2,Honda,Civic,2022,22000.00
+3,Ford,Mustang,2023,26000.00
+4,Chevrolet,Camaro,2022,30000.00
+5,BMW,320i,2023,35000.00
+6,Nissan,Sentra,2021,18000.00
+7,Volkswagen,Golf,2020,19000.00
+8,Hyundai,Elantra,2022,21000.00
+9,Kia,Soul,2023,16000.00
+10,Mazda,3,2021,22000.00
+11,Tesla,Model 3,2023,45000.00
