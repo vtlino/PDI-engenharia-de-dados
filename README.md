@@ -17,9 +17,13 @@ Sempre iremos usar, quando necessário, o Docker para rodar a infraestrutura nec
 
 ### Como usar a infra
 1. A infrestrutura será toda montada baseada em docker ([docker compose]([url](https://docs.docker.com/compose/gettingstarted/))). Para rodar a infra na mão voce precisa:
+
    a. Abrir o seu terminal e caminha até a pasta raiz do repositório
+
    b. Entrar na pasta airflow (`cd airflow` ou `dir airflow`).
+
    c. (necessário ter instalado o docker desktop) Rodar o comando `docker compose up` nesta pasta. Dessa forma toda a infraestrutura será construída.   
+
 3. Makefile tem alguns comandos, make airflow-up para subir o airflow por exemplo. Para entenderem melhor o que é caso não conheçam makefiles, tem um otimo artigo aqui: https://opensource.com/article/18/8/what-how-makefile
 4. Para o Airflow, todas as dags precisam ser criadas na pasta `airflow/dags`, elas vão aparecer automaticamente na interface do airflow que estiver rodando.
 5. Caso não conheçam, deem uma lida do [Poetry](https://python-poetry.org/docs/). Mas basicamente, vocês precisam instalar o Poetry e rodar poetry instala na raiz do repositório, ele irá criar um `.venv` que vocês podem usar (source .venv/bin/activate ou Poetry shell).
