@@ -16,7 +16,7 @@ Vamos criar tópicos na medida que lançaremos os novos trabalhos práticos aqui
 Sempre iremos usar, quando necessário, o Docker para rodar a infraestrutura necessária em cada trabalho. A sua instalação é bem simples ([doc](https://docs.docker.com/engine/install/)). Um problema que pode ser recorrente usando docker com algumas ferramentas que vamos precisar é a falta de memória, caso isso ocorra tente aumentar a memoria do seu ambiente docker ([mac](https://docs.docker.com/desktop/settings/mac/), [linux](https://docs.docker.com/desktop/settings/linux/), [Windows](https://docs.docker.com/desktop/settings/windows/)). Caso ainda assim tenha problemas de memoria, envie uma mensagem no canal do Discord que iremos ajudar vocês.
 
 ### Como usar a infra
-1. Makefile tem alguns comandos, make airflow-up para subir o airflow por exemplo.
+1. Makefile tem alguns comandos, make airflow-up para subir o airflow por exemplo. Para entenderem melhor o que é caso não conheçam makefiles, tem um otimo artigo aqui: https://opensource.com/article/18/8/what-how-makefile
 2. Para o Airflow, todas as dags precisam ser criadas na pasta `airflow/dags`, elas vão aparecer automaticamente na interface do airflow que estiver rodando.
 3. Caso não conheçam, deem uma lida do [Poetry](https://python-poetry.org/docs/). Mas basicamente, vocês precisam instalar o Poetry e rodar poetry instala na raiz do repositório, ele irá criar um `.venv` que vocês podem usar (source .venv/bin/activate ou Poetry shell).
 
